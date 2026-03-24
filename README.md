@@ -5,6 +5,9 @@
 
 > **WARNING**: We rely heavily on just-in-time compilation via JAX; the first call to a JAX-compiled function will be slow. After that things should be pretty fast. If you're tuning loss weights or optimizer parameters, you should use an interactive session or a notebook!
 
+> **WARNING**: Due to issues with upstream dependencies we use `override-dependencies` in [pyproject.toml](pyproject.toml). If you're adding `mosaic` as a dependency you may need to manually copy these to your `pyproject.toml` file. 
+
+
  Protein design tasks almost always involve multiple constraints or properties that must be satisfied or optimized. For instance, in binder design one may want to simultaneously ensure:
 - the chance of binding the intended target is high  
 - the chance of binding to a similar off-target protein is low
