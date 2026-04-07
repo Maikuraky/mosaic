@@ -27,7 +27,7 @@ There has been a recent explosion in the application of machine learning to prot
 | BoltzGen (design) |
 | AlphaFold2 |
 | OpenFold3 |
-| [Protenix (miny, tiny, base, v1.0, 20250630_v1.0.0)](#protenix) |
+| [Protenix (miny, tiny, base, v1.0, 20250630_v1.0.0, v2.0)](#protenix) |
 | [ProteinMPNN (standard, soluble, AbMPNN)](#proteinmpnn) |
 | [ESM (2 *or* C)](#esm) |
 | [stability](#stability) |
